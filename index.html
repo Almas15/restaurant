@@ -1,1 +1,136 @@
-hello world
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <title>Mas Restaurant</title>
+</head>
+
+<body>
+
+  <div class="jumbotron bg-black">
+    <h3 class="text-center text-success"><b>MAAS Restaurant</b>
+    </h3>
+    <p class="text-center text-white"><i>Delicious FOREVER</i><br>
+      <a href="https://www.facebook.com/almassceylon/" class="btn btn-success text-center" target="blank"> For more
+        details</a>
+    </p>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      
+      <a class="navbar-brand bg-dark text-white" href="#"><b><i>MAAS_._res</i></b></a>
+
+      <div class="green">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">HOME</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">RESERVATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </nav>
+  </div>
+  <div class="container">
+  <div class="bas">
+    <img src="assets/images/res.jpg" alr="res1" width="100%" height="300px" />
+    <div class="center"><b>
+        <h5><u>welcome to</u></h5>
+        <h1><br> <i>MAAS</i> Restaurant
+      </b></h1>
+    </div>
+
+  </div><br>
+  <div class="text-justify"> Welcome to Maas restaurant. We have started our restaurant since 2007. We are certified by
+    ISO:01.You can taste
+    the authenticity and traditions of the North Indian cuisine of ancient Punjab in the curries, the special Tandoori
+    dishes which are prepared using traditional cooking methods. You can choose from a wide à la carte selection of
+    dishes, many of which are vegetarian.
+    And at noon a buffet with a large choice awaits you. You will be enchanted by the quality of the food and the
+    attentive service in a peaceful Indian ambience. As is customary in India, an aperitif is offered. <b>MAAS…</b> home
+    away from home!
+
+    Discover the true flavors of Indian delicacies at restaurant <b>MAAS</b>. You can taste the authenticity and
+    traditions of the ancient Indian cuisine in the curries, the special Tandoori dishes and other lavish courses, which
+    are prepared according to traditional Indian cooking methods
+
+    You can choose from a wide selection of ‘à la carte’ dishes, many of which are vegetarian. There is also a
+    children’s menu.
+    You will be enchanted by the quality of the food and the attentive service amidst the peaceful Indian ambiance. As
+    the India custom prescribes, an aperitif is offered. </div><br>
+  <div class="text-center">
+    <button type="button" class="btn btn-primary ">Reservation</button>
+  </div>
+  <div class="main-div">
+    <div class="address1">
+      <div class="address">
+        <b>Lausanne,<br>
+           Switzerland.</b><br>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+          <iframe
+            src=" https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.356561979625!2d79.8565216!3d6.8799238!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbadf08beb39ed09!2sAl-Maas%20Indian%20Family%20Restaurant!5e0!3m2!1sen!2sch!4v1610798039583!5m2!1sen!2sch"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
+    </div><br>
+    <div class=" form1">
+      <form class="form">
+        <p><b>Contact Form</b></p>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+        <label for="email">E-mail</label><br>
+        <input type="text" id="email" name="email" placeholder="Your email"><br>
+        <label for="subject">Subject</label><br>
+        <textarea id="subject" name="subject" placeholder="Write something.." cols="25" rows="5"
+          width="140px"></textarea><br>
+        <input type="button" class="btn btn-primary" value="Submit" onclick="openModal();">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  <div class="modal" id="reservationModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+              <div class="modal-header">
+          <h4 class="modal-title">Reservation</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+          Please try again
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+</body>
+
+</html>
